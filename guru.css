@@ -1,0 +1,16 @@
+*{
+	padding:0px;
+	margin:0px
+}
+body{
+	background-color:green;
+	color:pink;
+	font-family:"times new roman";
+    font-size:16px;
+}
+header{
+	text-align:center;
+	border-bottom:pink dashed 5px
+}
+
+	

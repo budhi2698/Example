@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Input</title>
+</head>
+<body>
+<form style="width:400;">
+    <fieldset>
+        <legend>Personal information:</legend>
+        <label>First name</label><br>
+        <input type="text"placeholder="Enter your name" required><br><br>
+        <label>Middle name</label><br>
+        <input type="text"><br><br>
+        <label>Last name</label><br>
+        <input type="text"><br><br>
+        <label>DoB</label><br>
+        <input type="date"><br><br>
+
+        <label>Gender</label><br>
+        <option>Male</option><br>
+        <input type="radio"><br><br>
+        <option>Female</option><input type="radio"><br>
+
+
+        <label>Country</label><br>
+        <input list="country"><br><br>
+        <datalist id="country">
+        <option>Bhutan</option>
+        <option>India</option>
+        <option>Napel</option>
+        <option>Korea</option>
+        <option>Usa</option>
+        </datalist>
+        <label>country_code</label><br>
+        <input type="number"><br><br>
+        <label>Email</label><br>
+        <input type="email"><br><br>
+        <input value="submit">
+    </fieldset>
+</form>
+</body>
+</html>

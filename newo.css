@@ -1,0 +1,23 @@
+.office{
+    height:400px;
+	width:800px;
+	margin:20px;
+	border:5px solid #90EE90;
+	background-color:plum;
+	color:#FF0000;
+	background-image:url('surrea.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#sad{
+    height:400px;
+	width:300px;
+	margin:40px 60px;
+	border:5px solid #CD5C5C;
+	background-color:Azure;
+	color:#000000;
+}
+p::first-line{
+	font-variant:small-caps;
+}

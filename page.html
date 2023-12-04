@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Layout</title>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      h2{
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 4px;
+      }
+      .container {
+          width: 400px;
+          height: 445px;
+          margin: 0 auto;
+          border: 3px solid black;
+          overflow: hidden;  
+        }
+      .a {
+          height: 440px;
+          width: 114px;
+          background-color: gray;
+          float: right;
+          line-height: 360px;
+          text-align: center;
+        }
+      .b{
+          height: 230px;
+          width: 130px;
+          background-color: green;
+          float: left;
+          line-height: 150px;
+          text-align: center;
+        }
+      .c{
+          height: 110px;
+          width: 150px;
+          background-color: yellow;
+          float: right;
+          text-align: center;
+        }
+      .d{
+          height: 120px;
+          width: 150px;
+          background-color: rgb(86, 152, 190);
+          float: right;
+          text-align: center;
+      }
+      .e{
+          height: 210px;
+          width: 280px;
+          background-color:red;
+          float: left;
+          line-height: 100px;
+          text-align: center;
+        }
+      p{
+          padding-top: 40px;
+          color: #000;
+       }
+    </style>
+  </head>
+  <body>
+    <h2>This is an Example of page layout</h2>
+    <div class="container">
+        <div class="a">
+            <p>This is box A</p>
+        </div>
+        <div class="b">
+            <p>This is box B</p>
+        </div>
+        <div class="c">
+            <p>This is box C</p>
+        </div>
+        <div class="d">
+          <p>This is box D</p>
+      </div>
+        <div class="e">
+            <p>This is box E</p>
+        </div>
+    </div>
+  </body>
+</html>
